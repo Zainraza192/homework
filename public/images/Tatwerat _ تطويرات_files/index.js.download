@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#Wrapper").css({opacity:"1",visibility:"visible"}),window.sr=new scrollReveal({easing:"ease",reset:!0})});
