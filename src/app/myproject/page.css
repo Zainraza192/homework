@@ -142,17 +142,23 @@
     background-color: #ffffff;
     width: 165px;
     height: 110px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
-    /* cursor: pointer; */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
-.box1 :hover{
-    color: #1455d5;
+.box1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 .box1 span{
     color: #666;
-    font-size: 14px;
-    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-top: 70px;
+}
+.box1:hover span {
+  color: #1455d5;
 }
 .about{
    
@@ -468,7 +474,7 @@
     border: 1px solid #fff;
     color: #fff;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     padding: 14px 45px;
     position: relative;
